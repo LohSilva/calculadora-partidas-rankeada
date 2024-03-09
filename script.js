@@ -1,15 +1,23 @@
-//Calculadora de partidas Rankeadas
-let resultado = saldoVitorias(100, 20);
+//Usada para solicitar informações ao usuário.
+const prompt = require('prompt-sync')();
+
+let vitorias = prompt("Digite o número de vitórias: ");
+let derrotas = prompt("Digite o número de derrotas: ");
+
+//Armazena o saldo de vitórias, calculado pela função saldoVitorias
+let resultado = saldoVitorias(vitorias, derrotas);
+
+//Armazena o nível do jogador, determinado pela função nivelHeroi(nivel) 
 let nivel = nivelHeroi();
 
-//Criando função para determinar o saldo de vitórias
+//Calcula o saldo de vitórias do jogador subtraindo o número de derrotas do número de vitórias.
 function saldoVitorias(vitorias, derrotas) {
     let saldo = vitorias - derrotas;
     return saldo;
 }
 
-//Função para verificar nivel do herói
-function nivelHeroi(nivel) {
+//Determina o nível do jogador com base no saldo de vitórias utilizando uma estrutura de decisão switch
+function nivelHeroi(nivel) {    
     switch (true) {
         case resultado <= 10:
             nivel = "Ferro";
