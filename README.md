@@ -1,4 +1,4 @@
-# 📚 Resumo Desafio do Calculadora de partidas Rankeadas:
+# 📚 Resumo: Desafio do Calculadora de partidas Rankeadas:
 
 Este desafio propõe a criação de uma função, na linguagem de programação que desejar, onde calcula o saldo de vitórias e o nível de um jogador em um jogo ranqueado. A função recebe como parâmetros a quantidade de vitórias e derrotas do jogador e retorna o saldo de vitórias e o nível.
 
@@ -8,9 +8,8 @@ Este desafio propõe a criação de uma função, na linguagem de programação 
 
 - **Variáveis:** Armazenam dados como número de vitórias, derrotas, saldo de vitórias e nível.
 - **Operadores:** Realizam cálculos como subtração e comparação.
-- **Laços de repetição:** Não são utilizados neste caso.
 - **Estruturas de decisões:** Usadas para determinar o nível do jogador com base no saldo de vitórias.
-- **Funções:** Definem a função que calcula o saldo de vitórias e o nível do jogador.
+- **Funções:** Definem as funções que calculam o saldo de vitórias e determina nível do jogador.
 
 ### Entrada:
 
