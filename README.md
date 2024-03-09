@@ -42,4 +42,4 @@ Este desafio propõe a criação de uma função, na linguagem de programação 
 
 ## 🥷Desafio:
 
-- Curso Lógica programação [DIO](https://www.dio.me/)
+- Curso Lógica de Programação [DIO](https://www.dio.me/)
