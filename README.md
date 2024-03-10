@@ -1,4 +1,4 @@
-# 📚 Resumo: Desafio do Calculadora de partidas Rankeadas:
+# 📚 Resumo: Desafio do Calculadora de partidas Rankeadas
 
 **Objetivo:** Este desafio propõe a criação de uma função, na linguagem de programação que desejar, onde calcula o saldo de vitórias e o nível de um jogador em um jogo ranqueado. A função recebe como parâmetros a quantidade de vitórias e derrotas do jogador e retorna o saldo de vitórias e o nível.
 
@@ -33,7 +33,7 @@
 
 ## 💬Mensagem:
 
-- "O Herói tem saldo de {saldoVitorias} vitóras, eestá no nível {nivel}"
+- "O Herói tem saldo de {saldoVitorias} vitóras, e está no nível {nivel}"
 
 **Exemplo de uso:**
 - Se o jogador tiver 30 vitórias e 15 derrotas, o saldo de vitórias será 15 e o nível será Prata. A mensagem exibida será:
