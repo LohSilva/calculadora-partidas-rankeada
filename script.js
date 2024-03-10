@@ -45,4 +45,4 @@ function nivelHeroi(nivel) {
 }
 
 //Saída
-console.log("O Herói tem de saldo de " + resultado + " está no nível de " + nivel);
+console.log("O Herói tem saldo de " + resultado + " vitórias, e está no nível " + nivel);
